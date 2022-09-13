@@ -19,12 +19,25 @@ public class Fridge {
             if (weightedIngridient.getNazivSastojka().equals(x.getNazivSastojka())) {
                 weightedIngridient.setWeight(weightedIngridient.getWeight() + x.getWeight());
                 uslov = false;
+                System.out.println("Ta namirnica vec postoji,dodata je kolicina!");
                 break;
             }
         }
+
+        for (int i=0;i<Baza.getBazaSastojaka().size();i++){
+            if (Baza.getBazaSastojaka().get(i).getNazivSastojka().equals(x.getNazivSastojka())){
+                uslov=true;
+                break;
+            }
+            else
+                uslov=false;
+        }
         if (uslov) {
             namirnice.add(x);
+            System.out.println("Namirnica je uneta!");
         }
+        else
+            System.out.println("Sastojak koji ste uneli se ne nalazi na listi dozvoljenih sastojaka i ne moze biti unet u frizider");
 
     }
 

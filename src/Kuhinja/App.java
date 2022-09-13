@@ -38,6 +38,7 @@ public class App {
         Baza.addSastojakintoRecipe("bolonjeze", IngridientFactory.addIngridientminusWeight("paradajz", 5));
         Baza.addSastojakintoRecipe("bolonjeze", IngridientFactory.addIngridientminusWeight("luk", 7));
         Baza.addSastojakintoRecipe("bolonjeze", IngridientFactory.addIngridientminusWeight("svinjetina", 7));
+        Baza.addSastojakintoRecipe("bolonjeze", IngridientFactory.addIngridientminusWeight("testenina", 2));
         Baza.addRecipe(new Recipe("Salata", TezinaRecepta.EASY));
         Baza.addSastojakintoRecipe("salata", IngridientFactory.addIngridientminusWeight("paradajz", 5));
         Baza.addSastojakintoRecipe("salata", IngridientFactory.addIngridientminusWeight("krastavac", 5));
@@ -56,6 +57,35 @@ public class App {
         Baza.addSastojakintoRecipe("lazanje", IngridientFactory.addIngridientminusWeight("teletina", 5));
         Baza.addSastojakintoRecipe("lazanje", IngridientFactory.addIngridientminusWeight("paradajz", 2));
         Baza.addSastojakintoRecipe("lazanje", IngridientFactory.addIngridientminusWeight("kackavalj", 3));
+        Baza.addSastojakintoRecipe("lazanje", IngridientFactory.addIngridientminusWeight("testenina", 2));
+        Baza.addRecipe(new Recipe("PilecaCorba", TezinaRecepta.MEDIUM));
+        Baza.addSastojakintoRecipe("PilecaCorba", IngridientFactory.addIngridientminusWeight("piletina", 2));
+        Baza.addSastojakintoRecipe("PilecaCorba", IngridientFactory.addIngridientminusWeight("luk", 1));
+        Baza.addRecipe(new Recipe("Sendvic", TezinaRecepta.BEGINNER));
+        Baza.addSastojakintoRecipe("Sendvic", IngridientFactory.addIngridientminusWeight("salama", 3));
+        Baza.addSastojakintoRecipe("Sendvic", IngridientFactory.addIngridientminusWeight("paradajz", 2));
+        Baza.addSastojakintoRecipe("Sendvic", IngridientFactory.addIngridientminusWeight("krastavac", 2));
+        Baza.addSastojakintoRecipe("Sendvic", IngridientFactory.addIngridientminusWeight("kackavalj", 2));
+        Baza.addSastojakintoRecipe("Sendvic", IngridientFactory.addIngridientminusWeight("hleb", 1));
+        Baza.addRecipe(new Recipe("musaka", TezinaRecepta.PRO));
+        Baza.addSastojakintoRecipe("musaka", IngridientFactory.addIngridientminusWeight("paradajz", 5));
+        Baza.addSastojakintoRecipe("musaka", IngridientFactory.addIngridientminusWeight("luk", 7));
+        Baza.addSastojakintoRecipe("musaka", IngridientFactory.addIngridientminusWeight("svinjetina", 7));
+        Baza.addSastojakintoRecipe("musaka", IngridientFactory.addIngridientminusWeight("teletina", 7));
+        Baza.addSastojakintoRecipe("musaka", IngridientFactory.addIngridientminusWeight("jogurt", 1));
+        Baza.addSastojakintoRecipe("musaka", IngridientFactory.addIngridientminusWeight("jaja", 2));
+        Baza.addRecipe(new Recipe("popara", TezinaRecepta.EASY));
+        Baza.addSastojakintoRecipe("popara", IngridientFactory.addIngridientminusWeight("mleko", 1));
+        Baza.addSastojakintoRecipe("popara", IngridientFactory.addIngridientminusWeight("hleb", 2));
+        Baza.addRecipe(new Recipe("pica", TezinaRecepta.HARD));
+        Baza.addSastojakintoRecipe("pica", IngridientFactory.addIngridientminusWeight("salama", 1));
+        Baza.addSastojakintoRecipe("pica", IngridientFactory.addIngridientminusWeight("paradajz", 2));
+        Baza.addSastojakintoRecipe("pica", IngridientFactory.addIngridientminusWeight("kackavalj", 2));
+        Baza.addSastojakintoRecipe("pica", IngridientFactory.addIngridientminusWeight("jaja", 2));
+        Baza.addSastojakintoRecipe("pica", IngridientFactory.addIngridientminusWeight("mleko", 2));
+
+
+
 
 
         boolean uslov = true;
