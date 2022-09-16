@@ -92,7 +92,7 @@ public class Fridge {
             for (int i=0;i<Baza.getBazaRecepata().size();i++){
                 if (p.toUpperCase().equals(Baza.getBazaRecepata().get(i).getNazivRecepta())){
                     for (int y=0;y<Baza.getBazaRecepata().get(i).getSastojak().size();y++){
-                        x.reduceWeight(p.toUpperCase(),(Baza.getBazaRecepata().get(i).getSastojak().get(y).getWeight()+Baza.getBazaRecepata().get(i).getSastojak().get(y).getPrice()));
+                        x.reduceWeight(Baza.getBazaRecepata().get(i).getSastojak().get(y).getNazivSastojka(),(Baza.getBazaRecepata().get(i).getSastojak().get(y).getWeight()));
                     }
                     break;
                 }
