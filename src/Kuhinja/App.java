@@ -102,6 +102,7 @@ public class App {
                     "Unesite 9 da bi ste sortirali sva jela po odredjenoj tezini" + "\n" +
                     "Unesite 10 da bi ste sortirali sve jela po cenama" + "\n" +
                     "Unesite 11 da bi ste usli u meni sa omiljenim receptima" + "\n" +
+                    "Unesite 12 da bi ste usli videli namirnice u frizideru" + "\n" +
                     "Unesite 0 da bi ste izasli iz programa");
 
 
@@ -174,6 +175,8 @@ public class App {
                             Baza.proveraOmiljenihRecepataZaNovac(sc.nextDouble());
                             break;
                     }
+                case 12:
+                    System.out.println(fridge);break;
             }
         }
 
