@@ -83,7 +83,7 @@ public class Fridge {
     }
 
 
-//    Napravi jelo ne radi kako treba, ne smanjuje kolicinu, nisam mogao da je napravim.
+
     public void napraviJelo(Fridge x) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Unesite naziv jela");
